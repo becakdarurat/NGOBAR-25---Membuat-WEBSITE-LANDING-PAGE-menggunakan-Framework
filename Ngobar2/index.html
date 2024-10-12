@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">Sofyan  
+       Tanjung</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"  
+       aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>   
+    <!-- Navbar End -->
+
+    <!-- Jumbotron Start -->
+     <div class="jumbotron py-5 text-center bg-secondary mb-5">
+        <img src="../img/3.jpg" alt="Coffe" role="coffe" class="img-fluid rounded-circle">
+        <h1>Sofyan Tanjung</h1>
+        <p>Lecturer | Web Developer | Youtuber</p>
+    </div>
+    <!-- Jumbotron End -->
+
+    <!-- About Start -->
+     <section class="about mb-5 pt-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">About</h2>
+                    <hr class="mx-auto">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 offset-md-1">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, et. Distinctio placeat, alias, molestiae voluptate neque aspernatur perferendis ullam officia quasi ratione velit in tenetur vero dolorem blanditiis. Quam, iusto.</p>
+                </div>
+
+                <div class="col-md-5">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, et. Distinctio placeat, alias, molestiae voluptate neque aspernatur perferendis ullam officia quasi ratione velit in tenetur vero dolorem blanditiis. Quam, iusto.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- About End -->
+
+    <!-- Portfolio Start -->
+     <section class="portfolio mb-5 pt-5" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">Portfolio</h2>
+                    <hr class="mx-auto">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="../img/1.jpg" alt="" class="img-thumbnail w-100 h-100">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="../img/2.jpg" alt="" class="img-thumbnail w-100 h-100">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="../img/3.jpg" alt="" class="img-thumbnail w-100 h-100">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="../img/4.jpg" alt="" class="img-thumbnail w-100 h-100">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="../img/3.jpg" alt="" class="img-thumbnail w-100 h-100">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="../img/2.jpg" alt="" class="img-thumbnail w-100 h-100">
+                    </a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Portfolio End -->
+
+    <!-- Contact Start -->
+     <section class="contact pt-5" id="contact">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Contact</h2>
+                <hr class="mx-auto">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form action="#">
+                    <label for="nama" class="fw-bold">Nama</label>
+                    <input type="text" class="form-control mb-3" placeholder="Masukkan Nama" id="nama">
+                    <label for="email" class="fw-bold">Email</label>
+                    <input type="email" class="form-control mb-3" placeholder="Masukkan Email" id="email">
+                    <label for="notelp" class="fw-bold">No Telepon</label>
+                    <input type="tel" class="form-control mb-3" placeholder="Masukkan Telepon" id="notelp">
+                    <label for="jurusan" class="fw-bold">Pilih Jurusan</label>
+                    <select name="" id="jurusan" class="form-select mb-3" aria-label="Form select">
+                        <option value="Teknik Bangunan">Teknik Bangunan</option>
+                        <option selected value="Teknik Informatika">Teknik Informatika</option>
+                        <option value="Teknik Elektro">Teknik Elektro</option>
+                        <option value="Teknik Kimia">Teknik Kimia</option>
+                    </select>
+                    <label for="pesan" class="fw-bold">Pesan</label>
+                    <textarea name="" id="pesan" class="form-control mb-3"></textarea>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan !</button>
+                </form>
+            </div>
+        </div>
+     </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+     <footer class="w-100 position-absolute">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; Copyright 2024 | built with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                      </svg> by. <a href="https://github.com/becakdarurat">Github - Sofyan Tanjung</a></p>
+                </div>
+                <div class="col-md-12 text-center">
+                    <a href="https://github.com/becakdarurat" class="btn btn-danger">Kunjungi Github Saya</a>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!-- Footer End -->
+     
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
