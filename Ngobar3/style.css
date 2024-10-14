@@ -3,10 +3,22 @@ html {
 }
 body {
     margin-bottom: 100px;
+    overflow-x: hidden;
+}
+.jumbotron {
+    height: 400px;
+    background-image: url('../img/5.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -30px;
+    color: #eaeaea;
 }
 .jumbotron img {
     width: 200px;
-    border: 5px solid #333;
+    border: 5px solid #fff;
+}
+.jumbotron h1, .jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
 }
 hr {
     width: 250px;
